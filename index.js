@@ -92,7 +92,7 @@ module.exports = {
     "semi-spacing": 2,
     "space-before-blocks": [2, "always"],
     "space-before-function-paren": [2, "never"],
-    "space-in-parens": [2, "always"],
+    "space-in-parens": [2, "never"],
     "space-infix-ops": [2, {
       int32Hint: false
     }],
