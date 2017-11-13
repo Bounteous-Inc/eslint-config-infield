@@ -1,0 +1,25 @@
+{
+  "name": "eslint-config-infield",
+  "version": "1.0.0",
+  "description": "ESLint configuration following Infield Digital's JavaScript Coding Guidelines",
+  "main": "index.js",
+  "author": "Infield Digital",
+  "license": "GPL-3.0",
+  "homepage": "https://github.com/infielddigital/eslint-config-infield",
+  "contributors": [
+    {
+      "name": "Kevin Weber",
+      "url": "https://kevinw.de/"
+    }
+  ],
+  "keywords": [
+    "eslint"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/infielddigital/eslint-config-infield.git"
+  },
+  "peerDependencies": {
+    "eslint": ">= 4"
+  }
+}
