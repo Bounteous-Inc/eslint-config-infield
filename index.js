@@ -1,4 +1,5 @@
 module.exports = {
+  "extends": "airbnb-base",
   "env": {
     "browser": true,
     "es6": true
@@ -7,8 +8,10 @@ module.exports = {
     "ecmaVersion": 8,
     "sourceType": "module"
   },
-  "extends": "airbnb-base",
-  // "rules": {
-  // 
-  // }
+  "rules": {
+    "no-unused-expressions": ["error", {
+      // This allows us to use hyperHTML (https://www.npmjs.com/package/hyperhtml)
+      allowTaggedTemplates: true,
+    }],
+  },
 };
