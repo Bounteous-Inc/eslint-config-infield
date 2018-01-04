@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-infield",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "ESLint configuration following Infield Digital's JavaScript Coding Guidelines",
   "main": "index.js",
   "author": "Infield Digital",
