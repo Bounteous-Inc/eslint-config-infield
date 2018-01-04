@@ -13,5 +13,9 @@ module.exports = {
       // This allows us to use hyperHTML (https://www.npmjs.com/package/hyperhtml)
       allowTaggedTemplates: true,
     }],
+
+    "no-param-reassign": [2, {
+      "props": false,
+    }],
   },
 };
